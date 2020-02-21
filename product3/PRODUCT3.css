@@ -1,0 +1,101 @@
+body
+{
+    margin:0px;
+    font-family: fantasy;
+
+    /* The image used */
+    background-image: url('Rica.jpg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ProdOne
+{
+    position: relative;
+    z-index: 0;
+
+}
+
+.parallax {
+    /* The image used */
+    /*background-image: url('Rica.jpg');
+  
+    /* Full height */
+    /*height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    /*background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+  }
+
+.Power
+{
+    margin-top: 100px;
+    margin-bottom: 1000px;
+}
+.Pic2
+{
+    width: 100%;
+}
+
+.textIn
+{
+    position: relative;
+    margin-top: 240px;
+    margin-bottom: 300;
+    margin-right: auto;
+    left: 220;
+    padding: 3px;
+    float: left;
+    color: white;
+    font-size: 75pt;
+
+}
+
+.Third
+{
+    margin-top: 0px;
+    width: 100%
+    
+}
+
+.Container
+{
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+    
+
+.button
+{
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 40px 20px;
+    cursor: pointer;
+    margin-top: 355;
+    margin-bottom: 140;
+    margin-left: auto;
+}
+
+.button:hover
+{
+    background-color: rgba(0, 0, 0, 0.247);
+}

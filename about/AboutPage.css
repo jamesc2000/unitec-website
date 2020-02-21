@@ -1,0 +1,69 @@
+#AboutCap
+{
+    font-family: fantasy;
+    font-size:  40pt;
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+}
+
+#GroupPic
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:50%;
+    margin: 1px auto;
+}
+
+.Cap
+{
+    display: flex;
+    justify-content:center;
+    align-content: center; 
+    text-align: justify;
+    align-self: center;
+    margin-bottom: 50px;
+    margin-right: 0px;
+    width: 70%;
+    color: brown;
+}
+
+#RicaPic
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:50%;
+    margin: 1px auto;
+}
+
+.Description
+{
+    display: flex;
+    flex-flow: row;
+    margin-top: 50px;
+    padding: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.StaffPic
+{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#main
+{
+    position:absolute;
+    top: 100px;
+    width: 100%;
+}
+
+#footer
+{
+	position: absolute;
+	bottom: 15px;
+	left: 40px;
+	font-size:6pt;
+}
