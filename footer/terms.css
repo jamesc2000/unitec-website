@@ -1,0 +1,44 @@
+body
+{
+	color: black;
+}
+
+a
+{
+	text-decoration: none;
+}
+#main
+{
+	width:100%;
+}
+
+#terms,h1
+{
+    font-size:25pt;
+	position:relative;
+	margin-top:100px;
+	font-family:fantasy;
+}
+
+#terms,p
+{
+ position: relative;
+ margin-top:50px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size:12pt;
+ margin-left:100px;
+ margin-right:100px;
+}
+
+.property
+{
+	font-family:fantasy;
+	font-size:18pt;
+}
+
+#terms
+{
+	width: 75vw;
+	top: 70px;
+	margin-left: 30vw;
+}
