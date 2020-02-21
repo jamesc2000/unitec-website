@@ -1,3 +1,8 @@
+*
+{
+	box-sizing: border-box;
+}
+
 html
 {
 	overflow-y: scroll;
@@ -10,12 +15,15 @@ input
 	border-left: none;
 	border-right: none;
 	border-bottom: 1px solid #4848487a;
+	height: 18pt;
+	padding: 3px;
 }
 
 textarea
 {
 	border: 1px solid #4848487a;
 	background: rgba(255, 255, 255, 0.411);
+	resize: none;
 }
 
 input:focus, input:active, textarea:focus, textarea:active
@@ -39,9 +47,7 @@ input:focus, input:active, textarea:focus, textarea:active
 
 body
 {
-	background: seashell;  /* fallback for old browsers */
-	/*background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-	/*background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: seashell;
     background-attachment: fixed;
 	margin-top: 0px;
 	margin-left: 0px;

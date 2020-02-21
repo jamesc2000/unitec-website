@@ -14,6 +14,48 @@
 	padding: 10px;
 }
 
+.right_sidebar
+{
+	position: absolute;
+	right: 0px;
+	top: 25vh;
+}
+
+.pull_tab
+{
+	height: 32pt;
+	width: 229px;
+	background-size: cover;
+	color: white;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right: 10px;
+	text-align: right;
+	transform: translate(154px, 0px);
+	transition: 120ms;
+}
+
+.pull_tab:hover
+{
+	transform: translateX(1px);
+	transition: 120ms;
+}
+
+#fb
+{
+	background-image: url("fb.png");
+}
+
+#twitter
+{
+	background-image: url("twitter.png");
+}
+
+#ig
+{
+	background-image: url("ig.png");
+}
+
 #background-video
 {
     position: fixed;
@@ -141,7 +183,8 @@ img
 	flex-direction: row;
 	margin-bottom: 12px;
 	margin-top: 12px;
-
+	top: 25vh;
+	right: 75px;
 }
 
 .social
@@ -189,10 +232,9 @@ textarea
 	width: 0;
 	height: 32pt;
 	transform: scaleX(0);
-	margin-left: 20px;
 	font-size: 18pt;
-	padding-top: 8pt;
-	padding-bottom: 6pt;
+	padding-top: 4pt;
+	margin-left: 4px;
 }
 
 .social:hover + .linkname
