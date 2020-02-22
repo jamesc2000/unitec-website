@@ -211,21 +211,6 @@ img
 	background-color: #48484834;
 }
 
-textarea
-{
-	border-radius: 3px;
-}
-
-.button
-{
-	height: 21pt;
-	width: 128px;
-	border: none;
-	border-radius: 3px;
-	background: black;
-	color: white;
-}
-
 .linkname
 {
 	display: inline-block;
