@@ -19,4 +19,12 @@ function update()
 
     var price = quantity * capacity;
     subtotal_value.innerHTML = price;
+    localStorage.setItem("subtotal", price);
+}
+
+function getSubtotal()
+{
+    price = localStorage.getItem("subtotal");
+
+    subtotal_value.innerHTML = price;
 }

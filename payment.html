@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="order_product/order_product.css">
     <link rel="stylesheet" href="header.css">
 </head>
-<body>
+<body onload="getSubtotal()">
     <div id="header">
 		<div>
 			<a href="HomePage.html">
@@ -42,50 +42,19 @@
             <img src="productpics/usb1.png" alt="usb1" id="product">
             <div id="inputs">
                 <form>
-                    <label for="quantity" class="label">Quantity</label><br>
-					<input type="number" name="quantity" id="quantity" min="1" value="1" aria-valuemin="1" onchange="update()">
-					<br><br>
-					<span class="label">Color</span>
-					<br>
-					<label class="container_color">
-						<input type="radio" checked="checked" name="color">
-						<span class="color" id="red"></span>
-					</label>
-					<label class="container_color">
-						<input type="radio" name="color">
-						<span class="color" id="blue"></span>
-					</label>
-					<label class="container_color">
-						<input type="radio" name="color">
-						<span class="color" id="yellow"></span>
-					</label>
-					<label class="container_color">
-						<input type="radio" name="color">
-						<span class="color" id="green"></span>
-					</label>
-					<label class="container_color">
-						<input type="radio" name="color">
-						<span class="color" id="black"></span>
-					</label>
-					<br><br>
-					<span class="title">Capacity</span>
-					<br>
-					<label class="container_capacity">
-						<input type="radio" checked="checked" name="capacity" id="8g" onchange="update()">
-						<span class="capacity">8 GB</span>
-					</label>
-					<label class="container_capacity">
-						<input type="radio" name="capacity" id="16g" onchange="update()">
-						<span class="capacity">16 GB</span>
-					</label>
-					<label class="container_capacity">
-						<input type="radio" name="capacity" id="32g" onchange="update()">
-						<span class="capacity">32 GB</span>
-					</label>
-					<br><br>
-				</form>
-				<br>
-				<a href="payment.html"><button type="submit" class="button">Purchase</button></a>
+                    <p class="title">Payment Card Information</p>
+                    <label class="label" for="card">Card Number</label><br><input name="card" class="card" type="text"><br>
+                    <label class="label" for="cvv">Security Code (CVV)</label><br><input name="cvv" class="card" type="text"><br>
+                    <label class="label" for="name">Name</label><br><input name="name" class="card" type="text"><br>
+                    <label class="label" for="date">Expiration Date</label><br><input name="date" type="date"><br>
+                    <p class="title">Billing Address<p class="note">This is where your order will be delivered</p></p>
+                    <label class="label">Address Line 1</label><br><input class="card" type="text"><br>
+                    <label class="label">Address Line 2</label><br><input class="card" type="text"><br>
+                    <label class="label">City/Municipality</label><br><input class="city" type="text"><br>
+                    <label class="label">Zip Code</label><br><input class="city"><br>
+                </form>
+                <br><br>
+				<a href="loading.html" class="button_container"><button type="submit" class="button">Purchase</button></a>
             </div>
 		</div>
 		<br>

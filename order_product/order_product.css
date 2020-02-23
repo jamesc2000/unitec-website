@@ -1,7 +1,7 @@
 #content
 {
     position: absolute;
-    top: 100px;
+    top: 70px;
 }
 
 #order_form
@@ -19,15 +19,40 @@
     margin-right: 5vh;
 }
 
+.label
+{
+    font-size: 12pt;
+    font-weight: 500;
+}
+
+.product_title
+{
+    font-size: 21pt;
+    font-weight: 700;
+}
+
+.title
+{
+    font-size: 14pt;
+    font-weight: 700;
+}
+
 #inputs
 {
     padding: 3px;
+    min-width: 10vw;
+    max-width: 400px;
+    width: 400px;
 }
 
-#inputs :last-child
+.card
 {
-    position: absolute;
-    bottom: 18pt;
+    width: 75%;
+}
+
+.city
+{
+    width: 30%
 }
 
 #product
@@ -192,4 +217,12 @@
     content: "";
     position: absolute;
     display: none;
+}
+
+.note
+{
+    font-size: 8pt;
+    color: gray;
+    margin-top: -12pt;
+    margin-bottom: 0pt;
 }
