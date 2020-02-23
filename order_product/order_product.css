@@ -226,3 +226,8 @@
     margin-top: -12pt;
     margin-bottom: 0pt;
 }
+
+#content
+{
+    min-height: 100vh;
+}

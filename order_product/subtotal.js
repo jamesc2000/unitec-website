@@ -1,5 +1,6 @@
 var subtotal_value = document.getElementById("subtotal_value");
 var capacity;
+var price = 180;
 
 function update()
 {
@@ -17,7 +18,7 @@ function update()
         capacity = 429;
     }
 
-    var price = quantity * capacity;
+    price = quantity * capacity;
     subtotal_value.innerHTML = price;
     localStorage.setItem("subtotal", price);
 }
