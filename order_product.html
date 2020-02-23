@@ -34,70 +34,75 @@
 		</div>
 	</div>
     <div id ="content">
+		<div class="top">
+			<span id="title">Order your _product_name</span>
+			<div id="subtotal">Subtotal: ₱ <span id="subtotal_value">10</span></div>
+		</div>
         <div id="order_form">
             <img src="productpics/usb1.png" alt="usb1" id="product">
             <div id="inputs">
                 <form>
                     <label for="quantity">Quantity</label><br>
-					<input type="number" name="quantity" id="quantity" min="1" value="1" aria-valuemin="1">
+					<input type="number" name="quantity" id="quantity" min="1" value="1" aria-valuemin="1" onchange="update()">
 					<br><br>
 					Color
 					<br>
 					<label class="container_color">
-						<input type="radio" checked="checked" name="radio">
+						<input type="radio" checked="checked" name="color">
 						<span class="color" id="red"></span>
 					</label>
 					<label class="container_color">
-						<input type="radio" name="radio">
+						<input type="radio" name="color">
 						<span class="color" id="blue"></span>
 					</label>
 					<label class="container_color">
-						<input type="radio" name="radio">
+						<input type="radio" name="color">
 						<span class="color" id="yellow"></span>
 					</label>
 					<label class="container_color">
-						<input type="radio" name="radio">
+						<input type="radio" name="color">
 						<span class="color" id="green"></span>
 					</label>
 					<label class="container_color">
-						<input type="radio" name="radio">
+						<input type="radio" name="color">
 						<span class="color" id="black"></span>
 					</label>
 					<br><br>
 					Capacity
 					<br>
 					<label class="container_capacity">
-						<input type="radio" checked="checked" name="radio">
+						<input type="radio" checked="checked" name="capacity">
 						<span class="capacity">8 GB</span>
 					</label>
 					<label class="container_capacity">
-						<input type="radio" name="radio">
+						<input type="radio" name="capacity">
 						<span class="capacity">16 GB</span>
 					</label>
 					<label class="container_capacity">
-						<input type="radio" name="radio">
+						<input type="radio" name="capacity">
 						<span class="capacity">32 GB</span>
 					</label>
 					<br><br>
 				</form>
+				<button class="button">Purchase</button>
             </div>
-        </div>
+		</div>
+		<br>
+		<div id="footer">
+			<div class = "horizontal_line"></div>
+			<span class="ftext">
+			Copyright 2020 All rights reserved|UNITEC
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href="terms.html">Terms and Conditions</a>
+			</span>
+			<span class="ftext">
+			<a href="asd.html"> Customer Care</a>
+			</span>
+			<span class="ftext">
+			<a href="asd.html"> Wholesale Inquiries</a>
+			</span>
+		</div>	
 	</div>
-	<br>
-	<div id="footer">
-		<div class = "horizontal_line"></div>
-		<span class="ftext">
-		Copyright 2020 All rights reserved|UNITEC
-		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<a href="terms.html">Terms and Conditions</a>
-		</span>
-		<span class="ftext">
-		<a href="asd.html"> Customer Care</a>
-		</span>
-		<span class="ftext">
-		<a href="asd.html"> Wholesale Inquiries</a>
-		</span>
-	</div>
-
+	<script src="order_product/subtotal.js"></script>
 </body>
 </html>

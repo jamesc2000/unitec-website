@@ -134,7 +134,6 @@ a
 {
 	position: absolute;
 	font-size:8pt;
-	bottom: 50px;
 	left: 50px;
 	width: 100vw;
 }
@@ -160,4 +159,29 @@ textarea
 	border-radius: 3px;
 	background: black;
 	color: white;
+	transition: 120ms;
+	overflow: hidden;
+}
+
+.button:after 
+{
+	content: "";
+	background: rgba(173, 173, 173, 0.466);
+	display: block;
+	border-radius: 50%;
+	position: absolute;
+	padding-top: 300%;
+	padding-left: 350%;
+	margin-left: -20px;
+	margin-top: -120%;
+	opacity: 0;
+	transition: all 0.8s
+}
+  
+.button:active:after
+{
+	padding: 0;
+	margin: 0;
+	opacity: 1;
+	transition: 0s
 }
