@@ -36,7 +36,7 @@
     <div id ="content">
 		<div class="top">
 			<span id="title">Order your _product_name</span>
-			<div id="subtotal">Subtotal: ₱ <span id="subtotal_value">10</span></div>
+			<div id="subtotal">Subtotal: ₱ <span id="subtotal_value">180</span></div>
 		</div>
         <div id="order_form">
             <img src="productpics/usb1.png" alt="usb1" id="product">
@@ -71,15 +71,15 @@
 					Capacity
 					<br>
 					<label class="container_capacity">
-						<input type="radio" checked="checked" name="capacity">
+						<input type="radio" checked="checked" name="capacity" id="8g" onchange="update()">
 						<span class="capacity">8 GB</span>
 					</label>
 					<label class="container_capacity">
-						<input type="radio" name="capacity">
+						<input type="radio" name="capacity" id="16g" onchange="update()">
 						<span class="capacity">16 GB</span>
 					</label>
 					<label class="container_capacity">
-						<input type="radio" name="capacity">
+						<input type="radio" name="capacity" id="32g" onchange="update()">
 						<span class="capacity">32 GB</span>
 					</label>
 					<br><br>
