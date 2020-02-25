@@ -54,7 +54,7 @@
                     <label class="label">Zip Code</label><br><input class="city"><br>
                 </form>
                 <br><br>
-				<a href="loading.html" class="button_container"><button type="submit" class="button">Purchase</button></a>
+				<a class="button_container"><button id="purchase" type="submit" class="button" onclick="popup()">Purchase</button></a>
             </div>
 		</div>
 		<br><br><br>
@@ -72,6 +72,16 @@
 			<a href="asd.html"> Wholesale Inquiries</a>
 			</span>
 		</div>	
+	</div>
+	<div id="error-overlay">
+		<div id="popup">
+			<img id="close" src="icon/close.png" onclick="closePopup()"><br>
+			<img id="broken" src="icon/broken_payment.png">
+			<p>
+				Sorry but we are not able to handle online transactions at this time!
+			</p>
+			<a href="HomePage.html"><button class="button" id="go_home">Go to Home</button></a>
+		</div>
 	</div>
 	<script src="order_product/subtotal.js"></script>
 </body>

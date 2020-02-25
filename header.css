@@ -166,6 +166,11 @@ textarea
 	overflow: hidden;
 }
 
+.button :hover
+{
+	background: rgb(63, 63, 63);
+}
+
 /*.button:after 
 {
 	content: "";

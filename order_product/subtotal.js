@@ -29,3 +29,26 @@ function getSubtotal()
 
     subtotal_value.innerHTML = price;
 }
+
+/*function transitionGrey()
+{
+    var i = 0;
+    var opacity = 0;
+    if (i < 12) {
+        opacity = opacity + 17;
+        document.getElementById("error-overlay").style.background = "rgba(0, 0, 0, " + opcaity + ");";  
+        setTimeout(transitionGrey())
+    }
+}*/
+
+var error_overlay = document.getElementById("error-overlay")
+
+function popup()
+{
+    error_overlay.style.display = "flex";  
+}
+
+function closePopup()
+{
+    error_overlay.style.display = "none";  
+}
